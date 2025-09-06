@@ -87,4 +87,4 @@ Design an Entity-Relationship Diagram (ERD) for an Airbnb-like application that 
 
 The ERD was created using Draw.io and visually represents the entities, attributes, and relationships described above.  
  
-`![ERD Diagram](./AirBnB_ERD.png)`
+![ERD Diagram](./AirBnB_ERD.png)
