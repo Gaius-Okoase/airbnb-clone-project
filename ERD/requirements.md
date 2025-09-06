@@ -1,4 +1,4 @@
-# 📘 Task 0: Entity-Relationship Diagram (ERD)
+# Entity-Relationship Diagram (ERD)
 
 ## 🧠 Objective
 Design an Entity-Relationship Diagram (ERD) for an Airbnb-like application that models the core entities and their relationships. This diagram serves as the foundation for database normalization, schema creation, and data seeding in subsequent tasks.
