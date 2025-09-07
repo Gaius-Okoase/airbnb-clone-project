@@ -32,3 +32,8 @@ VALUES
 INSERT INTO messages (message_id, sender_id, recipient_id, message_body)
 VALUES
 (UUID(), (SELECT user_id FROM users WHERE email = 'tunde.bello@example.com'), (SELECT user_id FROM users WHERE email = 'ada.obi@example.com'), 'Hi Ada, is Lekki Lagoon View available next weekend?');
+
+-- Adding myself as an admin for the fun of it
+INSERT INTO USERS (user_id, first_name, last_name, email, password_hash, phone_number, role)
+VALUES
+(UUID(), 'Gaius', 'Gaius', 'gaiusgaius@gmail.com', 'gaiusgaius..', '081023456789', 'admin');
