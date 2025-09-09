@@ -12,7 +12,7 @@ LEFT JOIN
 --FULL OUTER JOIN
 SELECT * FROM
     users u
-LEFT JOIN
+FULL OUTER JOIN
     bookings b ON u.user_id = b.user_id
 
 UNION
