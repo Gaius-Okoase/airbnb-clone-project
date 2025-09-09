@@ -7,7 +7,7 @@ INNER JOIN
 -- LEFT JOIN
 SELECT * FROM
     properties p
-LEFT JOIN
+LEFT JOIN ORDER BY
     reviews r ON p.property_id = r.property_id;
 --FULL OUTER JOIN
 SELECT * FROM
